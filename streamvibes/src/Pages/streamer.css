@@ -1,0 +1,119 @@
+.streamer-content {
+    margin-bottom: 30px;
+    display: flex; /* Added to create a flex container */
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-between; /* Ensure space between the video and comment section */
+  }
+  
+  .streamer-content input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .streamer-content input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  .streamer-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .streamer-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stream-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .video-container {
+    width: 70%; /* Adjusted to give space for the comment section */
+    max-width: 800px;
+    margin-bottom: 20px;
+    background: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .video-preview {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .control-buttons {
+    margin: 20px 0;
+  }
+  
+  .control-buttons button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .control-buttons button:hover {
+    background-color: #218838;
+  }
+  
+  .control-buttons button:nth-child(3) {
+    background-color: #dc3545;
+  }
+  
+  .control-buttons button:nth-child(3):hover {
+    background-color: #c82333;
+  }
+  
+  .comment-section {
+    width: 25%; /* Adjusted width to make it a side panel */
+    max-width: 300px;
+    background: #f8f9fa;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky; /* Keeps the comment section in place when scrolling */
+    top: 0; /* Ensures the panel stays on top */
+  }
+  
+  .comment-section h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .comments-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #e9ecef;
+    color: #000;
+  }
+  
+  .comment strong {
+    color: #007bff;
+  }
+  
