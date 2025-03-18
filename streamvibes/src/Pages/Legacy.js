@@ -22,7 +22,7 @@ const Legacy = () => {
           <h1>Our Legacy</h1>
           <div className="team-grid">
             <div className="team-member">
-              <img src="rithvik png.png" alt="Rithvik Matta" />
+              <img src="rithvik.png" alt="Rithvik Matta" />
               <h3>Rithvik Rajesh Matta</h3>
               <p className="title">PES Electronic city campus</p>
               <p className="bio">SRN: PES2UG23CS485</p>
@@ -37,7 +37,7 @@ const Legacy = () => {
             </div>
 
             <div className="team-member">
-              <img src="rishi png.png" alt="Rishi A Sheth" />
+              <img src="rishi.png" alt="Rishi A Sheth" />
               <h3>Rishi A Sheth</h3>
               <p className="title">PES Electronic city campus</p>
               <p className="bio">SRN: PES2UG23CS479</p>
@@ -52,7 +52,7 @@ const Legacy = () => {
             </div>
 
             <div className="team-member">
-              <img src="Rohan png.png" alt="Rohan Jogi Jogi" />
+              <img src="Rohan.png" alt="Rohan Jogi Jogi" />
               <h3>Rohan Jogi</h3>
               <p className="title">PES Electronic city campus</p>
               <p className="bio">SRN: PES2UG23CS489</p>
