@@ -76,7 +76,7 @@ const Streamer = () => {
       return;
     }
 
-    ws.current = new WebSocket('wss://srv-d29mqdjuibrs73c6uv2g'); // Replace with your Render WebSocket URL
+    ws.current = new WebSocket('wss://ws-server-cgd7.onrender.com'); // Replace with your Render WebSocket URL
 
     ws.current.onopen = () => {
       console.log('WebSocket connected');
