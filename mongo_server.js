@@ -13,7 +13,7 @@ const PORT = 4000;
 const JWT_SECRET = 'Teamjj'; // Define your secret key
 
 mongoose
-  .connect('mongodb+srv://Teamjj:Teamjj@streamvibes.opjda.mongodb.net/?retryWrites=true&w=majority&appName=StreamVibes', {
+  .connect('mongodb+srv://Team-jj:Teamjj@streamvibes.frzxv.mongodb.net/?retryWrites=true&w=majority&appName=StreamVibes', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     dbName: 'Users'
